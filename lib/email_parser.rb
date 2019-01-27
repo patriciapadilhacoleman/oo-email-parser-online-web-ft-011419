@@ -14,7 +14,7 @@ class EmailParser
   
   def parse
     
-    emails.delete(",").split(" ").uiq
+    emails.delete(",").split(" ").uniq
 
     
   end

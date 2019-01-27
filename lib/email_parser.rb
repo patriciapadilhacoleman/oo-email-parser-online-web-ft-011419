@@ -10,7 +10,7 @@ class EmailParser
   
   def parse(email_list)
     
-    
+    email_list.split(" ")
     
   end
   

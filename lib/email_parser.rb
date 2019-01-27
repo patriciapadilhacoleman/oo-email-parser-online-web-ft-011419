@@ -6,7 +6,11 @@ class EmailParser
   
   attr_accessor :emails
   
-  
+  def initialize(email_list)
+    
+    @emails = parse(email_list)
+    
+  end
   
   def parse(email_list)
     

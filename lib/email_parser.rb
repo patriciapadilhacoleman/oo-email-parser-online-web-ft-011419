@@ -14,8 +14,8 @@ class EmailParser
   
   def parse
     
-    emails.delete(",")
-    emails.split(" ")
+    emails.delete(",").split(" ")
+
     
   end
   
